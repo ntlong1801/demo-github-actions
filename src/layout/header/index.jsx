@@ -68,14 +68,14 @@ export default function Header({
       <div className="flex gap-2 align-items-center">
         {!user ? (
           <>
-            <Link to="/signin">
+            {/* <Link to="/signin">
               <Button
                 label={t('signIn.name')}
                 severity="primary"
                 type="button"
 
               />
-            </Link>
+            </Link> */}
             <Link to="/signup">
               <Button
                 label={t('signUp.name')}
