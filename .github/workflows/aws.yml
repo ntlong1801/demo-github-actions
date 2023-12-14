@@ -51,7 +51,7 @@ jobs:
         with:
           host: 34.224.169.119
           username: ubuntu
-          key: ${{ SSH_PRIVATE_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
             # Pull image mà được push lên DockerHub bên trên
